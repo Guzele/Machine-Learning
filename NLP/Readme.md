@@ -21,6 +21,7 @@ Dataset created by https://github.com/AnnaAK and used sources: http://wiki.dbped
 Total time used for training: 0:23:02.020427
 
 acc: 97.67%
+
              precision    recall  f1-score   support
 
          cs       0.95      0.98      0.96     62576
