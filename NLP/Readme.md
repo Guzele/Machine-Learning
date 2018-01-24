@@ -1,24 +1,25 @@
 Project to identify west slavic languages (Czech, Slovak and Polish) and Hungarian.
 
 Structure of project:
-data/source/.. - dataset
+  data/source/.. - dataset
 
-data/cleaned... - cleaned dataset
+  data/cleaned... - cleaned dataset
 to clean dataset run cleaner.py
 
-data/samples/... - full computed dataset in form of matrix
-data/train_test/... - train and test sets
+  data/samples/... - full computed dataset in form of matrix
+  data/train_test/... - train and test sets
 to create them run data_extractor.py
 
-dnn.py - used to train and test model
+  dnn.py - used to train and test model
 
-model.json
-model.h5  - saved model
+  model.json
+  model.h5  - saved model
 
 Dataset created by https://github.com/AnnaAK and used sources: http://wiki.dbpedia.org/Downloads2014?v=jd3, http://ftp.acc.umu.se/mirror/wikimedia.org/dumps/skwiki/20180101/, http://zlatyfond.sme.sk/autori
 
 
 Total time used for training: 0:23:02.020427
+
 acc: 97.67%
              precision    recall  f1-score   support
 
